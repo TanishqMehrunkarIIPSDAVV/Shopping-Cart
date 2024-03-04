@@ -1,0 +1,39 @@
+.title
+{
+    height:100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#0c2d57;
+    
+}
+#title
+{
+    text-decoration: none;
+    animation: test 4s infinite ease-in-out;
+    color: white;
+}
+.title-head
+{
+    font-size:10vw;
+    font-weight: bolder;
+    color: white;
+}
+.products
+{
+    font-size: 5vw;
+    font-weight: bolder;
+    text-align: center;
+}
+@keyframes test
+{
+    0%,100%
+    {
+        color:white;
+    }
+    50%,75%
+    {
+        color:#FC6736;
+    }
+}
