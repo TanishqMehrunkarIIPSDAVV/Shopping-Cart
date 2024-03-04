@@ -20,11 +20,20 @@
     font-weight: bolder;
     color: white;
 }
-.products
+#product
 {
     font-size: 5vw;
     font-weight: bolder;
+}
+.products
+{
     text-align: center;
+    background: url(leaves.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    background-attachment: fixed;
 }
 @keyframes test
 {
@@ -36,4 +45,8 @@
     {
         color:#FC6736;
     }
+}
+.images
+{
+    height:500px;
 }
